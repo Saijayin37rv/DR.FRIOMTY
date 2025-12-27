@@ -1,24 +1,7 @@
-name: Mi Compilación Automática
-
-on:
-  push:
-    branches: [ main ] # Se activa cada vez que subes algo a la rama main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Descargar código
-      uses: actions/checkout@v4
-
-    - name: Configurar Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-
-    - name: Instalar dependencias
+- name: Instalar dependencias
       run: npm install
+      working-directory: ./WEB  # Pon aquí el nombre de la carpeta
 
     - name: Compilar proyecto
       run: npm run build
+      working-directory: ./WEB
