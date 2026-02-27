@@ -10,4 +10,25 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <!-- Servicios - instalación clima, lavado tapicería, etc. -->
+  <url>
+    <loc>https://drfriomty.online/servicios.html</loc>
+    <lastmod>2025-02-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Contacto - WhatsApp, teléfono -->
+  <url>
+    <loc>https://drfriomty.online/contacto.html</loc>
+    <lastmod>2025-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Aviso de privacidad -->
+  <url>
+    <loc>https://drfriomty.online/aviso-privacidad.html</loc>
+    <lastmod>2025-02-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
 </urlset>
