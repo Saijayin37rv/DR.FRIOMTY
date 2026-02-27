@@ -1,0 +1,12 @@
+{
+  "name": "drfriomty-site-tools",
+  "version": "1.0.0",
+  "description": "Utilities for building og-image for DR.FRIO MTY site",
+  "scripts": {
+    "build-og": "node build-og.js",
+    "compress-images": "node compress-images.js"
+  },
+  "dependencies": {
+    "sharp": "^0.32.0"
+  }
+}

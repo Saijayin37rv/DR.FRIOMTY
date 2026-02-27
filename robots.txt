@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Replace the sitemap URL below with your real domain
 Sitemap: https://drfriomty.online/sitemap.xml

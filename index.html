@@ -2,17 +2,18 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DR.FRIO MTY - Servicios de Climas y Lavados Profesionales</title>
-    <meta name="description" content="DR.FRIO MTY — Servicios profesionales de climatización, mantenimiento y lavado de equipos en Monterrey. Instalación, limpieza profunda, revisiones y lavado de tapicería. Servicio 24/7 y cotizaciones a domicilio.">
-    <meta name="keywords" content="climatización Monterrey, limpieza de climas, lavado de tapicería, lavado de colchones, instalación aire acondicionado, servicio 24/7, DR.FRIO MTY">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>DR.FRIO MTY | Instalación y Limpieza de Climas en Monterrey 24/7</title>
+    <meta name="description" content="Instalación de aire acondicionado, limpieza de climas, lavado de tapicería y colchones en Monterrey. Cotización a domicilio. Servicio 24 horas. ✓ Precios desde $350 ✓ WhatsApp +52 812 052 7078">
+    <meta name="keywords" content="instalación clima Monterrey, limpieza de climas Monterrey, lavado de tapicería Monterrey, lavado de colchones, aire acondicionado Monterrey, servicio clima 24 horas, mantenimiento minisplit, DR.FRIO MTY, Nuevo León">
     <meta name="author" content="DR.FRIO MTY">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#ffffff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="DR.FRIO MTY - Servicios de Climatización y Lavados Profesionales">
-    <meta property="og:description" content="Servicios profesionales de climatización, instalación, mantenimiento y lavado de tapicería en Monterrey. Servicio 24/7.">
+    <meta property="og:title" content="DR.FRIO MTY | Climas y Lavados en Monterrey 24/7">
+    <meta property="og:description" content="Instalación y limpieza de climas, lavado de tapicería y colchones. Cotización a domicilio en Monterrey. Servicio 24 horas.">
     <meta property="og:locale" content="es_MX">
     <meta property="og:url" content="https://drfriomty.online/">
     <meta property="og:image" content="https://drfriomty.online/assets/og-image.jpg">
@@ -21,15 +22,19 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:type" content="image/jpeg">
     <link rel="canonical" href="https://drfriomty.online/">
+    <meta name="geo.region" content="MX-NLE">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="DR.FRIO MTY - Servicios de Climatización y Lavados Profesionales">
-    <meta name="twitter:description" content="Instalación, limpieza y mantenimiento de equipos de climatización en Monterrey. Servicio 24/7.">
+    <meta name="twitter:title" content="DR.FRIO MTY | Climas y Lavados en Monterrey 24/7">
+    <meta name="twitter:description" content="Instalación y limpieza de climas, lavado de tapicería y colchones. Cotización a domicilio. 24 horas.">
     <meta name="twitter:image" content="https://drfriomty.online/assets/og-image.jpg">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" crossorigin>
         <script type="application/ld+json">
         {
             "@context":"https://schema.org",
@@ -58,11 +63,25 @@
                 "ratingValue":"4.9",
                 "reviewCount":"100"
             },
-            "sameAs":["https://www.facebook.com/DOCTOR.FRIO.NL","https://wa.me/528120527078"]
+            "sameAs":["https://www.facebook.com/DOCTOR.FRIO.NL","https://wa.me/528120527078"],
+            "priceRange": "$$",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Servicios DR.FRIO MTY",
+                "itemListElement": [
+                    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Instalación completa de clima"}},
+                    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Revisión de equipo de climatización"}},
+                    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Lavado de sala"}},
+                    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Lavado de colchones"}},
+                    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Lavado de carro interior"}},
+                    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Limpieza profunda de clima"}}
+                ]
+            }
         }
         </script>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Saltar al contenido</a>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
@@ -76,6 +95,7 @@
                     <li><a href="#galeria" class="nav-link">Galería</a></li>
                     <li><a href="#noticias" class="nav-link">Noticias</a></li>
                     <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                    <li><button type="button" class="theme-toggle" id="themeToggle" aria-label="Cambiar a modo oscuro"><span class="theme-icon" aria-hidden="true">🌙</span></button></li>
                     <li><a href="#pedidos" class="nav-link btn-pedido">Solicitar Servicio</a></li>
                 </ul>
                 <div class="hamburger">
@@ -88,8 +108,9 @@
     </nav>
 
     <!-- Hero Section -->
+    <main id="main-content">
     <section id="inicio" class="hero">
-        <div class="hero-background"; background-size: cover; background-position: center;">
+        <div class="hero-background">
             <div class="gradient-overlay"></div>
         </div>
         <div class="container">
@@ -126,7 +147,7 @@
             <div class="services-grid">
                 <div class="service-card mirror-effect">
                     <div class="service-image">
-                        <img src="instalacion_finalclima.jpg" alt="Instalación Completa">
+                        <img src="instalacion_finalclima.jpg" alt="Instalación Completa" width="400" height="320" loading="lazy" decoding="async">
                     </div>
                     <div class="service-content">
                         <h3>Instalación Completa</h3>
@@ -138,8 +159,8 @@
 
                 <div class="service-card mirror-effect">
                     <div class="service-video">
-                        <video autoplay muted loop playsinline>
-                            <source src="limpiezayposicioncoreecta_compresor.mp4" type="video/mp4">
+                        <video autoplay muted loop playsinline preload="metadata" data-src="limpiezayposicioncoreecta_compresor.mp4">
+                            <source data-src="limpiezayposicioncoreecta_compresor.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="service-content">
@@ -152,7 +173,7 @@
 
                 <div class="service-card mirror-effect">
                     <div class="service-image">
-                        <img src="sala.jpg" alt="Lavado de Sala">
+                        <img src="sala.jpg" alt="Lavado de Sala" width="400" height="320" loading="lazy" decoding="async">
                     </div>
                     <div class="service-content">
                         <h3>Lavado de Sala</h3>
@@ -164,8 +185,8 @@
 
                 <div class="service-card mirror-effect">
                     <div class="service-video">
-                        <video autoplay muted loop playsinline>
-                            <source src="lavado_colchon.mp4" type="video/mp4">
+                        <video autoplay muted loop playsinline preload="metadata" data-src="lavado_colchon.mp4">
+                            <source data-src="lavado_colchon.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="service-content">
@@ -178,8 +199,8 @@
 
                 <div class="service-card mirror-effect">
                     <div class="service-video">
-                        <video autoplay muted loop playsinline>
-                            <source src="lavado_asientos.mp4" type="video/mp4">
+                        <video autoplay muted loop playsinline preload="metadata" data-src="lavado_asientos.mp4">
+                            <source data-src="lavado_asientos.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="service-content">
@@ -192,8 +213,8 @@
 
                 <div class="service-card mirror-effect">
                     <div class="service-video">
-                        <video autoplay muted loop playsinline>
-                            <source src="limpieza_profunda_clima.mp4" type="video/mp4">
+                        <video autoplay muted loop playsinline preload="metadata" data-src="limpieza_profunda_clima.mp4">
+                            <source data-src="limpieza_profunda_clima.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="service-content">
@@ -218,56 +239,66 @@
                 <div class="gallery-carousel">
                     <div class="gallery-track" id="galleryTrack">
                         <!-- Images -->
-                        <div class="gallery-item">
-                            <img src="instalacion_compresordelclima.jpg" alt="Instalación de compresor">
+                        <div class="gallery-item" data-media="image" data-src="instalacion_compresordelclima.jpg">
+                            <img src="instalacion_compresordelclima.jpg" alt="Instalación de compresor" width="400" height="400" loading="lazy" decoding="async">
                         </div>
-                        <div class="gallery-item">
-                            <img src="instalacion_finalclima.jpg" alt="Instalación final">
+                        <div class="gallery-item" data-media="image" data-src="instalacion_finalclima.jpg">
+                            <img src="instalacion_finalclima.jpg" alt="Instalación final" width="400" height="400" loading="lazy" decoding="async">
                         </div>
-                        <div class="gallery-item">
-                            <img src="compresor_casa.jpg" alt="Compresor en casa">
+                        <div class="gallery-item" data-media="image" data-src="compresor_casa.jpg">
+                            <img src="compresor_casa.jpg" alt="Compresor en casa" width="400" height="400" loading="lazy" decoding="async">
                         </div>
-                        <div class="gallery-item">
-                            <img src="compresor_limpio.jpg" alt="Compresor limpio">
+                        <div class="gallery-item" data-media="image" data-src="compresor_limpio.jpg">
+                            <img src="compresor_limpio.jpg" alt="Compresor limpio" width="400" height="400" loading="lazy" decoding="async">
                         </div>
-                        <div class="gallery-item">
-                            <img src="lavado_compresor.jpg" alt="Lavado de compresor">
+                        <div class="gallery-item" data-media="image" data-src="lavado_compresor.jpg">
+                            <img src="lavado_compresor.jpg" alt="Lavado de compresor" width="400" height="400" loading="lazy" decoding="async">
                         </div>
-                        <div class="gallery-item">
-                            <img src="lavado_compresor2.jpg" alt="Lavado de compresor 2">
+                        <div class="gallery-item" data-media="image" data-src="lavado_compresor2.jpg">
+                            <img src="lavado_compresor2.jpg" alt="Lavado de compresor 2" width="400" height="400" loading="lazy" decoding="async">
                         </div>
-                        <div class="gallery-item">
-                            <img src="antes_compresor.jpg" alt="Antes del servicio">
+                        <div class="gallery-item" data-media="image" data-src="antes_compresor.jpg">
+                            <img src="antes_compresor.jpg" alt="Antes del servicio" width="400" height="400" loading="lazy" decoding="async">
                         </div>
-                        <div class="gallery-item">
-                            <img src="despues_compresor.jpg" alt="Después del servicio">
+                        <div class="gallery-item" data-media="image" data-src="despues_compresor.jpg">
+                            <img src="despues_compresor.jpg" alt="Después del servicio" width="400" height="400" loading="lazy" decoding="async">
                         </div>
-                        <div class="gallery-item">
-                            <img src="clima_empresarial.jpg" alt="Clima empresarial">
+                        <div class="gallery-item" data-media="image" data-src="clima_empresarial.jpg">
+                            <img src="clima_empresarial.jpg" alt="Clima empresarial" width="400" height="400" loading="lazy" decoding="async">
                         </div>
-                        <div class="gallery-item">
-                            <img src="entrega_clima.jpg" alt="Entrega de clima">
+                        <div class="gallery-item" data-media="image" data-src="entrega_clima.jpg">
+                            <img src="entrega_clima.jpg" alt="Entrega de clima" width="400" height="400" loading="lazy" decoding="async">
                         </div>
-                        <div class="gallery-item">
-                            <img src="precios_lavadoras.jpg" alt="Precios lavadoras">
+                        <div class="gallery-item" data-media="image" data-src="precios_lavadoras.jpg">
+                            <img src="precios_lavadoras.jpg" alt="Precios lavadoras" width="400" height="400" loading="lazy" decoding="async">
                         </div>
                         <!-- Videos -->
-                        <div class="gallery-item video-item">
-                            <video controls>
+                        <div class="gallery-item video-item" data-media="video" data-src="lavado_clima.mp4">
+                            <video controls preload="metadata" width="400" height="400">
                                 <source src="lavado_clima.mp4" type="video/mp4">
                             </video>
                         </div>
-                        <div class="gallery-item video-item">
-                            <video controls>
+                        <div class="gallery-item video-item" data-media="video" data-src="lavado_clima2.mp4">
+                            <video controls preload="metadata" width="400" height="400">
                                 <source src="lavado_clima2.mp4" type="video/mp4">
                             </video>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-controls">
-                    <button class="gallery-btn prev-btn" id="prevBtn">‹</button>
-                    <button class="gallery-btn next-btn" id="nextBtn">›</button>
+                    <button class="gallery-btn prev-btn" id="prevBtn" type="button" aria-label="Anterior">‹</button>
+                    <button class="gallery-btn next-btn" id="nextBtn" type="button" aria-label="Siguiente">›</button>
                 </div>
+            </div>
+        </div>
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada">
+            <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Cerrar">×</button>
+            <div class="lightbox-content">
+                <img class="lightbox-media lightbox-image" id="lightboxImage" src="" alt="">
+                <video class="lightbox-media lightbox-video" id="lightboxVideo" controls preload="metadata" playsinline>
+                    <source id="lightboxVideoSource" src="" type="video/mp4">
+                </video>
             </div>
         </div>
     </section>
@@ -328,42 +359,55 @@
             </div>
             <div class="order-wrapper">
                 <div class="order-form-container mirror-effect">
-                    <form class="order-form" id="orderForm">
+                    <form class="order-form" id="orderForm" novalidate>
                         <div class="form-group">
                             <label for="name">Nombre Completo *</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" required autocomplete="name" minlength="2" maxlength="120" placeholder="Ej. Juan Pérez">
                         </div>
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="email">Email *</label>
-                                <input type="email" id="email" name="email" required>
+                                <input type="email" id="email" name="email" required autocomplete="email" placeholder="correo@ejemplo.com">
                             </div>
                             <div class="form-group">
                                 <label for="phone">Teléfono *</label>
-                                <input type="tel" id="phone" name="phone" required>
+                                <input type="tel" id="phone" name="phone" required autocomplete="tel" inputmode="tel" placeholder="812 052 7078" maxlength="15">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="service">Tipo de Servicio *</label>
-                            <select id="service" name="service" required>
-                        <option value="">Selecciona un servicio</option>
-                        <option value="instalacion">Instalación Completa - $2,500</option>
-                        <option value="revision">Revisión - $350</option>
-                        <option value="lavado-sala">Lavado de Sala - $1,200</option>
-                        <option value="lavado-colchon">Lavado de Colchones - $700</option>
-                        <option value="lavado-carro">Lavado de Carro Interior - $800</option>
-                        <option value="limpieza-profunda">Limpieza Profunda - $700</option>
+                            <select id="service" name="service" required aria-required="true">
+                                <option value="">Selecciona un servicio</option>
+                                <option value="instalacion">Instalación Completa - $2,500</option>
+                                <option value="revision">Revisión - $350</option>
+                                <option value="lavado-sala">Lavado de Sala - $1,200</option>
+                                <option value="lavado-colchon">Lavado de Colchones - $700</option>
+                                <option value="lavado-carro">Lavado de Carro Interior - $800</option>
+                                <option value="limpieza-profunda">Limpieza Profunda - $700</option>
                             </select>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group address-field-wrapper">
                             <label for="address">Dirección</label>
-                            <input type="text" id="address" name="address" placeholder="Calle, número, colonia">
+                            <div class="address-input-row">
+                                <input type="text" id="address" name="address" autocomplete="street-address" placeholder="Calle, número, colonia o usa tu ubicación">
+                                <button type="button" class="btn-location" id="btnLocation" title="Usar mi ubicación actual" aria-label="Detectar ubicación actual">
+                                    <span class="btn-location-icon">📍</span>
+                                    <span class="btn-location-text">Mi ubicación</span>
+                                </button>
+                            </div>
+                            <input type="hidden" id="addressLat" name="addressLat" value="">
+                            <input type="hidden" id="addressLng" name="addressLng" value="">
+                            <p class="form-hint address-hint">Escribe la dirección o pulsa "Mi ubicación" para detectarla con precisión.</p>
+                            <div class="address-map-preview" id="addressMapPreview" aria-hidden="true"></div>
                         </div>
                         <div class="form-group">
                             <label for="message">Mensaje o Detalles Adicionales</label>
-                            <textarea id="message" name="message" rows="4" placeholder="Describe tu necesidad o cualquier detalle importante"></textarea>
+                            <textarea id="message" name="message" rows="4" maxlength="500" placeholder="Describe tu necesidad o cualquier detalle importante"></textarea>
+                            <span class="form-hint" id="messageCount">0 / 500</span>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-submit">Enviar Solicitud</button>
+                        <p class="form-error" id="formError" role="alert" aria-live="polite"></p>
+                        <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+                        <button type="submit" class="btn btn-primary btn-submit" id="btnSubmit">Enviar Solicitud</button>
                     </form>
                 </div>
                 <div class="order-info">
@@ -380,8 +424,7 @@
                             <span class="contact-icon">📧</span>
                             <div>
                                 <strong>Email</strong>
-                                <p>daniloximeno100@gmail.com
-                                </p>
+                                <p>daniloximeno100@gmail.com</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -415,7 +458,7 @@
                     <div class="contact-icon-large">💬</div>
                     <h3>WhatsApp</h3>
                     <p>+52 812052 7078</p>
-                    <a href="https://wa.me/528120527078" class="whatsapp-link" target="_blank">Enviar mensaje</a>
+                    <a href="https://wa.me/528120527078" class="whatsapp-link" target="_blank" rel="noopener noreferrer">Enviar mensaje</a>
                 </div>
                 <div class="contact-card mirror-effect">
                     <div class="contact-icon-large">⭐</div>
@@ -433,11 +476,12 @@
                     </div>
                     <h3>Facebook</h3>
                     <p>Síguenos en nuestras redes</p>
-                    <a href="https://www.facebook.com/DOCTOR.FRIO.NL" class="whatsapp-link" target="_blank" style="background: #1877f2;">Visitar página</a>
+                    <a href="https://www.facebook.com/DOCTOR.FRIO.NL" class="whatsapp-link" target="_blank" rel="noopener noreferrer" style="background: #1877f2;">Visitar página</a>
                 </div>
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -466,17 +510,41 @@
                 <div class="footer-section">
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="#aviso-privacidad">Aviso de Privacidad</a></li>
+                        <li><a href="#privacyModal" id="openPrivacyLink">Aviso de Privacidad</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 DR.FRIO MTY. Todos los derechos reservados.</p>
+                <p>&copy; 2026 DR.FRIO MTY. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
 
+    <!-- Botón flotante WhatsApp -->
+    <a href="https://wa.me/528120527078" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <span class="whatsapp-float-icon" aria-hidden="true"></span>
+        <span class="whatsapp-float-text">WhatsApp</span>
+    </a>
+
+    <!-- Modal Aviso de Privacidad -->
+    <div class="modal-overlay" id="privacyModal" role="dialog" aria-modal="true" aria-labelledby="privacyModalTitle" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="privacyModalTitle">Aviso de Privacidad</h2>
+                <button type="button" class="modal-close" id="closePrivacyModal" aria-label="Cerrar">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p><strong>DR.FRIO MTY</strong> respeta tu privacidad. Los datos que nos proporciones (nombre, teléfono, correo, dirección y mensaje) serán utilizados únicamente para:</p>
+                <ul>
+                    <li>Contactarte y dar seguimiento a tu solicitud de servicio.</li>
+                    <li>Enviar cotizaciones y coordinar visitas a domicilio.</li>
+                </ul>
+                <p>No compartimos tu información con terceros. Puedes solicitar el acceso, rectificación o eliminación de tus datos contactándonos por WhatsApp o correo.</p>
+                <p><em>Última actualización: 2025.</em></p>
+            </div>
+        </div>
+    </div>
+
     <script src="main.js"></script>
 </body>
 </html>
-
